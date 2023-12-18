@@ -5,7 +5,7 @@ function Fsd({image, content, heading}) {
   return  <>
     <div className="container">
         <div className="row">
-            <Card className="cards" style={{ width: '22rem' }}>
+            <Card className="cards" style={{ width: '20rem' }}>
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
                   <Card.Title>{heading}</Card.Title>
