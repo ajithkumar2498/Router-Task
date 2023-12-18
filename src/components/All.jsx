@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 
 
-function Cards({image, content, heading}) {
+function All({image, content, heading}) {
     
   return <>
   
@@ -22,4 +22,4 @@ function Cards({image, content, heading}) {
   </>
 }
 
-export default Cards
+export default All
