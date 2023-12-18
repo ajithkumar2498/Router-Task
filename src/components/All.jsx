@@ -2,8 +2,6 @@ import React from 'react'
 import Card from 'react-bootstrap/Card';
 
 
-
-
 function All({image, content, heading}) {
     
   return <>

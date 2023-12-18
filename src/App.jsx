@@ -54,7 +54,7 @@ function App() {
          <Route path="/fsd" element={cardData.map((e,i)=>{if(i>=0 && i<4){return  <Fsd image={e.image} heading={e.Heading} content={e.Content} key= {i} />} })}/>
          <Route path="/cs" element={cardData.map((e,i)=>{if(i===4){return  <Cs image={e.image} heading={e.Heading} content={e.Content} key= {i} />} })}/>
          <Route path="/ds" element={cardData.map((e,i)=>{if(i===5){return  <Ds image={e.image} heading={e.Heading} content={e.Content} key= {i} />} })}/>
-         <Route path="*" element={<Navigate to="/Cards" />}/>
+         <Route path="*" element={<Navigate to="/all" />}/>
         </Routes>
     </div>
 
